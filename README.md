@@ -1,4 +1,4 @@
-To guide you through setting up a Django project with a virtual environment and installing required packages, here are the steps along with the necessary commands. I've also included how to start a Django server and create an app, with a sample README file.
+
 
 ### Step-by-Step Guide
 
