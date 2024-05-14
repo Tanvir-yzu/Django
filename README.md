@@ -141,7 +141,7 @@ python manage.py runserver
 Navigate to `http://127.0.0.1:8000/` in your web browser to see your Django project running.
 
 ## Additional Resources
-
+```
 - [Django Documentation](https://docs.djangoproject.com/en/stable/)
 - [Jinja Templates and Apps in Django](https://chaicode.com/blogs/jinja-templates-and-apps-in-django)
 - [Tailwind CSS with Django](https://django-tailwind.readthedocs.io/en/latest/installation.html)
