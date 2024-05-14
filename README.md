@@ -6,7 +6,7 @@
 
 Open a command prompt or terminal and navigate to your project directory. Then, create and activate a virtual environment:
 
-```sh
+```
 # Create a virtual environment
 python -m venv .venv
 
@@ -18,7 +18,7 @@ python -m venv .venv
 
 After activating the virtual environment, use the following commands to install Django and other dependencies:
 
-```sh
+```
 # Install Django
 pip install django
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 Now, create a new Django project called `chaiaurdjango` and navigate into the project directory:
 
-```sh
+```
 # Create a new Django project
 django-admin startproject chaiaurdjango
 
@@ -42,7 +42,7 @@ cd chaiaurdjango
 
 To start the Django development server, use the following command:
 
-```sh
+```
 # Start the Django development server
 python manage.py runserver
 ```
@@ -53,7 +53,7 @@ Open your web browser and navigate to `http://127.0.0.1:8000/` to see your Djang
 
 Next, create a new Django app called `chai`:
 
-```sh
+```
 # Create a new Django app
 python manage.py startapp chai
 ```
@@ -77,35 +77,35 @@ This is a Django project named `chaiaurdjango` that includes an app named `chai`
 ### Setting Up the Project
 
 1. **Create a virtual environment:**
-    ```sh
+    ```
     python -m venv .venv
     ```
 
 2. **Activate the virtual environment:**
     - On Windows:
-      ```sh
+      ```
       .venv\Scripts\activate
       ```
 
 3. **Install Django and other dependencies:**
-    ```sh
+    ```
     pip install django
     pip install -r requirements.txt
     ```
 
 4. **Create the Django project:**
-    ```sh
+    ```
     django-admin startproject chaiaurdjango
     cd chaiaurdjango
     ```
 
 5. **Create a Django app:**
-    ```sh
+    ```
     python manage.py startapp chai
     ```
 
 6. **Run the Django server:**
-    ```sh
+    ```
     python manage.py runserver
     ```
 
@@ -134,7 +134,7 @@ chaiaurdjango/
 
 To start the development server, run:
 
-```sh
+```
 python manage.py runserver
 ```
 
