@@ -6,7 +6,7 @@
 
 Open a command prompt or terminal and navigate to your project directory. Then, create and activate a virtual environment:
 
-```
+
 # Create a virtual environment
 ```
 uv venv
@@ -81,7 +81,7 @@ This is a Django project named `chaiaurdjango` that includes an app named `chai`
 
 1. **Create a virtual environment:**
     ```
-    python -m venv .venv
+    uv venv
     ```
 
 2. **Activate the virtual environment:**
