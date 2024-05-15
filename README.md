@@ -24,12 +24,12 @@ After activating the virtual environment, use the following commands to install 
 
 # Install Django
 ```
-pip install django
+uv pip install django
 ```
 
 # Install other dependencies from requirements.txt (if you have one)
 ```
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 #### 3. Creating a Django Project
@@ -44,7 +44,7 @@ django-admin startproject projectName
 
 # Change directory to the project folder
 ```
-cd chaiaurdjango
+cd prjeactNAme
 ```
 
 #### 4. Starting the Django Server
@@ -61,7 +61,7 @@ Open your web browser and navigate to `http://127.0.0.1:8000/` to see your Djang
 
 #### 5. Creating an App in Django
 
-Next, create a new Django app called `chai`:
+Next, create a new Django app called `app`:
 
 
 # Create a new Django app
@@ -74,9 +74,9 @@ python manage.py startapp AppName
 Here is a sample `README.md` file for your project:
 
 ```markdown
-# Chai aur Django
+#  Django
 
-This is a Django project named `chaiaurdjango` that includes an app named `chai`.
+This is a Django project named `projectName` that includes an app named `AppName`.
 
 ## Getting Started
 
@@ -106,13 +106,13 @@ This is a Django project named `chaiaurdjango` that includes an app named `chai`
 
 4. **Create the Django project:**
     ```
-    django-admin startproject chaiaurdjango
-    cd chaiaurdjango
+    django-admin startproject projectName
+    cd projectName
     ```
 
 5. **Create a Django app:**
     ```
-    python manage.py startapp chai
+    python manage.py startapp AppName
     ```
 
 6. **Run the Django server:**
