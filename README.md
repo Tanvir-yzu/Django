@@ -122,7 +122,7 @@ This is a Django project named `projectName` that includes an app named `AppName
 
 ### Project Structure
 
-```
+
 chaiaurdjango/
 ├── chai/
 │   ├── __init__.py
@@ -139,7 +139,7 @@ chaiaurdjango/
 │   ├── urls.py
 │   ├── wsgi.py
 ├── manage.py
-```
+
 
 ### Running the Project
 
