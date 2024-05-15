@@ -21,11 +21,14 @@ uv venv
 
 After activating the virtual environment, use the following commands to install Django and other dependencies:
 
-```
+
 # Install Django
+```
 pip install django
+```
 
 # Install other dependencies from requirements.txt (if you have one)
+```
 pip install -r requirements.txt
 ```
 
@@ -33,11 +36,14 @@ pip install -r requirements.txt
 
 Now, create a new Django project called `chaiaurdjango` and navigate into the project directory:
 
-```
+
 # Create a new Django project
-django-admin startproject chaiaurdjango
+```
+django-admin startproject projectName
+```
 
 # Change directory to the project folder
+```
 cd chaiaurdjango
 ```
 
@@ -45,8 +51,9 @@ cd chaiaurdjango
 
 To start the Django development server, use the following command:
 
-```
+
 # Start the Django development server
+```
 python manage.py runserver
 ```
 
@@ -56,9 +63,10 @@ Open your web browser and navigate to `http://127.0.0.1:8000/` to see your Djang
 
 Next, create a new Django app called `chai`:
 
-```
+
 # Create a new Django app
-python manage.py startapp chai
+```
+python manage.py startapp AppName
 ```
 
 ### README File
