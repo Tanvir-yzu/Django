@@ -8,9 +8,12 @@ Open a command prompt or terminal and navigate to your project directory. Then, 
 
 ```
 # Create a virtual environment
-python -m venv .venv
+```
+uv venv
+```
 
 # On Windows, activate the virtual environment
+```
 .venv\Scripts\activate
 ```
 
