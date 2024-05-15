@@ -56,6 +56,9 @@ To start the Django development server, use the following command:
 ```
 python manage.py runserver
 ```
+```
+pip freeze > requirements.txt
+```
 
 Open your web browser and navigate to `http://127.0.0.1:8000/` to see your Django project running.
 
