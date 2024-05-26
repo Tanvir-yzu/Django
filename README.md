@@ -162,6 +162,7 @@ Navigate to `http://127.0.0.1:8000/` in your web browser to see your Django proj
 - [Tailwind CSS with Django](https://django-tailwind.readthedocs.io/en/latest/installation.html)
 - [django-browser-reload](https://pypi.org/project/django-browser-reload/)
 - [tailwind-to-your-django-project-and-django-admin](https://chaicode.com/blogs/how-to-add-tailwind-to-your-django-project-and-django-admin)
+- [guide-on-django-models](https://chaicode.com/blogs/a-guide-on-django-models)
 ```
 
 By following these steps and using the sample README, you should be able to set up and start working on your Django project efficiently.
